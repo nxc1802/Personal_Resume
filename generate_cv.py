@@ -156,8 +156,8 @@ for p in doc.paragraphs:
 # ==============================================================================
 software_replacements = [
     ("Databases", ": PostgreSQL (pgvector), Supabase, Neo4j, Qdrant, Pinecone, Redis (AOF), Microsoft SQL Server, SQLite."),
-    ("Programming Languages", ": Python (Core/Expert), C++, TypeScript, JavaScript, SQL, Shell Script."),
-    ("Frameworks & Platforms", ": PyTorch, TensorFlow, LangChain, LangGraph, Mastra, FastAPI, Celery, Node.js, Next.js, React, vLLM, Ollama, YOLOv8/v10, MediaPipe."),
+    ("Programming Languages", ": Python (Core/Expert), C++, Java, TypeScript, JavaScript, SQL, Shell Script."),
+    ("Frameworks & Platforms", ": PyTorch, TensorFlow, LangChain, LangGraph, Mastra, FastAPI, Celery, Node.js, Next.js, ReactJS, vLLM, Ollama, YOLOv8/v10, MediaPipe."),
     ("Programming Tools", ": VS Code, Cursor AI IDE, Docker, Git, Postman, Janus WebRTC."),
     ("Source Control", ": GIT (GitHub, GitLab)."),
     ("Software Process", ": Agile/Scrum, Waterfall."),
@@ -185,25 +185,41 @@ for r in list(t0.rows)[1:]:
     t0._tbl.remove(r._tr)
 
 skills_data = [
+    # Category: Programming Language
     ("CAT", "Programming Language"),
-    ("Python", "5-Recognized authority", "5+ years", "2026", "Core language for AI/ML, Agent systems & Backend"),
+    ("Python", "4-Applied theory", "5+ years", "2026", "Core language for AI/ML, Agent systems & Backend"),
     ("C++", "4-Applied theory", "5 years", "2026", "Deep learning inference, edge integration & algorithms"),
-    ("TypeScript / JavaScript", "4-Applied theory", "4+ years", "2026", "Full-stack Next.js, React, Node.js applications"),
-    ("SQL", "4-Applied theory", "5 years", "2026", "Relational queries, pgvector indexing & data modeling"),
+    ("Java", "3-Practical application", "3+ years", "2025", "OOP, backend services & core data structures"),
+    ("JavaScript / TypeScript", "3-Practical application", "3+ years", "2026", "Full-stack development, async runtime & APIs"),
+    ("SQL", "3-Practical application", "4+ years", "2026", "Relational queries, database indexing & data modeling"),
+
+    # Category: AI, Machine Learning & Deep Learning
     ("CAT", "AI, Machine Learning & Deep Learning"),
-    ("PyTorch, TensorFlow", "5-Recognized authority", "5 years", "2026", "Deep learning research, model training & fine-tuning"),
-    ("Computer Vision (YOLOv8/10, MediaPipe, ByteTrack, ViT)", "4-Applied theory", "4+ years", "2026", "Real-time object detection, tracking & pose analysis"),
+    ("Machine Learning (ML)", "5-Recognized authority", "3+ years", "2026", "Classical ML algorithms, feature engineering & scikit-learn"),
+    ("Deep Learning (DL - PyTorch, TensorFlow)", "5-Recognized authority", "3+ years", "2026", "Neural architecture design, model training & fine-tuning"),
+    ("Computer Vision (CV - YOLO, MediaPipe, ViT)", "5-Recognized authority", "3+ years", "2026", "Real-time object detection, tracking, pose & video analysis"),
+    ("Natural Language Processing (NLP)", "3-Practical application", "3+ years", "2026", "Text preprocessing, tokenization, semantic embeddings & classification"),
+
+    # Category: Generative AI, Agents & RAG
     ("CAT", "Generative AI, Agents & RAG"),
-    ("LLM Agent Frameworks (LangChain, LangGraph, Mastra, MCP)", "5-Recognized authority", "3+ years", "2026", "ReAct agents, tool-calling, multi-agent coordination"),
+    ("LLM Agent Frameworks (LangChain, LangGraph, Mastra, MCP)", "4-Applied theory", "3+ years", "2026", "ReAct agents, tool-calling, multi-agent coordination"),
     ("Advanced RAG & Vector DBs (pgvector, Qdrant, Pinecone, Neo4j)", "4-Applied theory", "3+ years", "2026", "Hybrid search, Graph-RAG, 768-dim embeddings"),
     ("LLM Orchestration & Prompting (Gemini, OpenRouter, vLLM)", "4-Applied theory", "3+ years", "2026", "Multi-LLM fallback, prompt engineering, structured output"),
-    ("CAT", "Backend, Distributed Systems & Database"),
-    ("FastAPI, Node.js, REST APIs", "4-Applied theory", "4+ years", "2026", "High-throughput, asynchronous microservices"),
-    ("Redis (AOF), Celery, WebSockets, WebRTC", "4-Applied theory", "3+ years", "2026", "Distributed worker queues, real-time streaming"),
-    ("PostgreSQL / Supabase", "4-Applied theory", "4+ years", "2026", "Relational data, authentication, vector storage"),
+
+    # Category: Backend, Frontend & Database
+    ("CAT", "Backend, Frontend & Database"),
+    ("FastAPI (Python Backend)", "4-Applied theory", "4+ years", "2026", "High-throughput, asynchronous microservices & APIs"),
+    ("Node.js (Backend)", "3-Practical application", "3+ years", "2026", "Event-driven backend services & RESTful APIs"),
+    ("ReactJS / Next.js (Frontend)", "3-Practical application", "3+ years", "2026", "Component-based SPA, SSR & interactive dashboards"),
+    ("Redis (AOF), Celery, WebSockets, WebRTC", "4-Applied theory", "3+ years", "2026", "Distributed worker queues, real-time media streaming"),
+    ("PostgreSQL / Supabase", "4-Applied theory", "4+ years", "2026", "Relational data, authentication, pgvector storage"),
+
+    # Category: DevOps & Cloud Deployment
     ("CAT", "DevOps & Cloud Deployment"),
-    ("Docker & Docker Compose", "4-Applied theory", "4+ years", "2026", "Containerization, multi-stage builds, CI/CD"),
-    ("Cloud Platforms (AWS, GCP, Azure, Hugging Face, Vercel, Nosana)", "4-Applied theory", "4+ years", "2026", "Cloud deployment, GPU serverless runtime"),
+    ("Docker & Docker Compose", "3-Practical application", "3+ years", "2026", "Containerization, multi-stage builds, CI/CD"),
+    ("Cloud Platforms (AWS, GCP, Azure, Hugging Face, Vercel, Nosana)", "3-Practical application", "3+ years", "2026", "Cloud deployment, GPU serverless runtime & infrastructure"),
+
+    # Category: Foreign Language
     ("CAT", "Foreign Language"),
     ("English", "4-Applied theory", "5+ years", "2026", "IELTS 6.5 equivalent (Professional working proficiency)"),
     ("Vietnamese", "5-Recognized authority", "Native", "2026", "Native language"),

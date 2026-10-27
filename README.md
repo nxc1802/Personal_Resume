@@ -37,15 +37,19 @@ Personal_Resume/
 
 | Domain | Key Technologies & Frameworks | Proficiency | Exp. |
 | :--- | :--- | :---: | :---: |
-| **Programming Languages** | Python (Core/Expert), C++, TypeScript, JavaScript, SQL, Shell Script | 5 - Recognized authority | 5+ yrs |
-| **AI / Machine Learning** | PyTorch, TensorFlow, Scikit-learn, CNN-LSTM, Vision Transformers (ViT) | 5 - Recognized authority | 5 yrs |
-| **Generative AI & Agents** | LangChain, LangGraph, Mastra, Model Context Protocol (MCP), ReAct Agents | 5 - Recognized authority | 3+ yrs |
+| **Programming Languages** | Python, C++ | 4 - Applied theory | 5+ yrs |
+| **Languages & DBs** | Java, JavaScript / TypeScript, SQL | 3 - Practical application | 3+ / 4+ yrs |
+| **Machine Learning (ML)** | Classical ML algorithms, feature engineering, Scikit-learn | 5 - Recognized authority | 3+ yrs |
+| **Deep Learning (DL)** | Neural network architectures, PyTorch, TensorFlow | 5 - Recognized authority | 3+ yrs |
+| **Computer Vision (CV)** | YOLOv8/v10, MediaPipe, ByteTrack, DeepSORT, Vision Transformers (ViT) | 5 - Recognized authority | 3+ yrs |
+| **NLP** | Text preprocessing, tokenization, semantic embeddings & classification | 3 - Practical application | 3+ yrs |
+| **Generative AI & Agents** | LangChain, LangGraph, Mastra, Model Context Protocol (MCP), ReAct Agents | 4 - Applied theory | 3+ yrs |
 | **Vector DBs & RAG** | Graph-RAG (Neo4j), Qdrant, Pinecone, Supabase pgvector, 768-dim Embeddings | 4 - Applied theory | 3+ yrs |
-| **Computer Vision** | YOLOv8/v10, MediaPipe Pose, ByteTrack, DeepSORT, OpenCV | 4 - Applied theory | 4+ yrs |
-| **Backend & Distributed** | FastAPI, Node.js, Celery, Redis (AOF), WebSockets, Janus WebRTC | 4 - Applied theory | 4+ yrs |
-| **Cloud & DevOps** | Docker, Docker Compose, AWS (EC2/S3), GCP, Azure, Hugging Face Spaces, Nosana | 4 - Applied theory | 4+ yrs |
-| **Databases** | PostgreSQL, Supabase, Neo4j, Microsoft SQL Server, Redis, SQLite | 4 - Applied theory | 4+ yrs |
-| **Languages** | English (IELTS 6.5 Equivalent - Professional working), Vietnamese (Native) | 4 - Applied theory | 5+ yrs |
+| **Backend & Distributed** | FastAPI (Python), Redis (AOF), Celery, WebSockets, WebRTC, PostgreSQL | 4 - Applied theory | 3+ / 4+ yrs |
+| **Backend (Node.js)** | Node.js, Express, async APIs | 3 - Practical application | 3+ yrs |
+| **Frontend (ReactJS)** | ReactJS, Next.js, SPA, SSR & interactive dashboards | 3 - Practical application | 3+ yrs |
+| **DevOps & Cloud** | Docker, Docker Compose, AWS, GCP, Azure, Hugging Face Spaces, Nosana | 3 - Practical application | 3+ yrs |
+| **Foreign Languages** | English (IELTS 6.5 Equivalent - Professional working), Vietnamese (Native) | 4 - Applied theory | 5+ yrs |
 
 ---
 
