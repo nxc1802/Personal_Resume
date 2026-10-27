@@ -1,0 +1,132 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+
+\setlist[itemize]{leftmargin=12pt, label=\textbullet, itemindent=0pt, labelsep=4pt, noitemsep, topsep=2pt, partopsep=0pt, parsep=1pt}
+
+\newcommand{\sectionhr}[1]{%
+  \vspace{0.4em}\noindent\textbf{\large #1}\par
+  \vspace{0.2em}\hrule\vspace{0.4em}
+}
+
+\begin{document}
+
+% ===== HEADER =====
+\begin{center}
+    {\LARGE \textbf{Nguyen Xuan Cuong}}\\[2pt]
+    Da Nang, Vietnam \quad|\quad +84 327 755 183 \quad|\quad
+    \href{mailto:nxcforwork@gmail.com}{nxcforwork@gmail.com} \\
+    GitHub: \href{https://github.com/nxc1802}{nxc1802} \quad|\quad
+    LinkedIn: \href{https://www.linkedin.com/in/cuong-nguyen-2715a136b}{cuong-nguyen-2715a136b} \quad|\quad
+    Portfolio: \href{https://nxc-s-portfolio.vercel.app/}{nxc-s-portfolio.vercel.app}
+\end{center}
+
+% ===== SUMMARY =====
+\sectionhr{Summary}
+Senior AI \& Software Engineer with 5+ years of hands-on experience in AI and software engineering, specializing in building production-grade Generative AI agents, Advanced RAG architectures, and real-time Computer Vision systems. Proven track record in bridging deep learning research with scalable full-stack and cloud deployments (AWS, GCP, Azure, Hugging Face, Vercel, Supabase, Nosana). Adept at technical leadership, architectural design, and rapid prototyping using modern AI-assisted engineering workflows. Fluent in English (IELTS 6.5 equivalent) for international technical collaboration and research.
+
+% ===== EDUCATION =====
+\sectionhr{Education}
+\textbf{FPT University – Da Nang, Vietnam} \\
+B.Sc. in Information Technology (AI Major) \quad|\quad GPA: 8.28/10.00 \quad|\quad \emph{Recipient of 100\% Full-tuition FPT University Scholarship.}
+
+% ===== WORK EXPERIENCE =====
+\sectionhr{Work Experience}
+
+\textbf{PiXerse Technology – Da Nang, Vietnam} \hfill Mar 2025 -- Present \\
+\emph{Senior AI Developer / AI Architect}
+\begin{itemize}
+\item Architected 'Pixity', a real-time AI tourism agent ecosystem integrating transport, weather, and event APIs; won 2nd Runner-up at GDG DevFest MienTrung 2025.
+\item Designed Graph-RAG pipeline combining Neo4j graph databases and Pinecone vector search for spatial-temporal itinerary planning.
+\item Implemented multi-turn conversational agents with autonomous tool-calling capabilities using Gemini and OpenRouter APIs.
+\item Built scalable asynchronous backend microservices using FastAPI and Node.js; optimized containerized CI/CD workflows with Docker.
+\end{itemize}
+
+\vspace{0.3em}
+\textbf{Arcronics Solution – Da Nang, Vietnam} \hfill Jun 2024 -- Feb 2025 \\
+\emph{Senior AI Engineer / Embedded AI Specialist}
+\begin{itemize}
+\item Researched and trained deep learning models for malware classification and cyber attack-type detection.
+\item Quantized, pruned, and integrated lightweight AI models into hardware systems and microchips (Firmware, FPGA).
+\item Built automated MLOps pipelines for data preprocessing, feature extraction, model retraining, and continuous evaluation.
+\end{itemize}
+
+% ===== HONORS & AWARDS =====
+\sectionhr{Honors \& Awards}
+\begin{itemize}[leftmargin=0pt, label=]
+\item \textbf{2nd Runner-up}: Hackathon GDG DevFest MienTrung 2025. \quad|\quad \textbf{Second Prize}: AI4SE 2025 Competition.
+\item \textbf{4th Place}: Hackathon Nosana Builders Challenge: Agents 102. \quad|\quad \textbf{Superteam Honorable Mention}: Timelocked Wallet (2025).
+\item \textbf{Finalist}: AI4LIFE 2024, Research Connection 2025, Research Festival 2025, and Grab The Beyond 2026.
+\end{itemize}
+
+% ===== RESEARCH & PUBLICATIONS =====
+\sectionhr{Research \& Publications}
+\begin{itemize}[leftmargin=0pt, label=]
+\item \href{https://drive.google.com/file/d/1f-_lmgSBEQNiokMz5ruVxllKGePAKLLs/view?usp=drive_link}{\textbf{MAFIS}}: Multi-Agent Imitation by learning and sampling from FactorIzed Soft Q-function.
+\item \href{https://drive.google.com/file/d/1C1UmtYmYN1q72dGiZ-QnILFhtghNS1Vg/view?usp=drive_link}{\textbf{Identification of Plant Leaf Diseases}}: Using CNN and SVM for precision agriculture.
+\item \href{https://drive.google.com/file/d/1L5Vi10YiWKZArKmDK_A7PQRQ3pDMiLGO/view?usp=drive_link}{\textbf{The GYM Exercise Classification Dataset}}: 2D/3D pose analysis using CNN-LSTM and Mediapipe.
+\item \href{https://drive.google.com/file/d/1DitwY3fDwt5S5XOb4LiS2O0MDBZtA2lA/view?usp=drive_link}{\textbf{Towards Sparse Adversarial Perturbations}}: Gradient-Guided Approach for Efficient Image Attacks.
+\end{itemize}
+
+% ===== PROJECTS =====
+\sectionhr{Projects}
+
+\href{https://github.com/nxc1802/Manim-Agent}{\textbf{Manim Agent -- Distributed Educational AI Storyboard \& Video Platform}} \hfill Oct 2023 -- May 2024 \\
+\emph{Role: Lead AI \& Fullstack Architect \quad|\quad Team Size: 2 \quad|\quad Layers: FastAPI, Celery, Redis AOF, Docker Sandbox, React, Supabase}
+\begin{itemize}
+\item Architected an end-to-end multi-service AI system that transforms educational ideas into structured storyboards, generates executable Manim Python scripts, and renders HD mathematical videos.
+\item Implemented Human-in-the-Loop review flow via WebSockets and real-time state synchronization for scene-by-scene video previews.
+\item Isolated untrusted code execution using asynchronous Celery worker queues deployed within a protected Hugging Face Docker Space runtime.
+\end{itemize}
+
+\vspace{0.4em}
+\href{https://github.com/nxc1802/MathSolver}{\textbf{MathSolver -- Multi-Agent Geometry Problem Solver \& Motion Renderer}} \hfill Feb 2023 -- Sep 2023 \\
+\emph{Role: Senior AI Engineer \quad|\quad Team Size: 3 \quad|\quad Layers: Multi-Agent AI System, OCR Engine, Manim Engine, FastAPI, Next.js}
+\begin{itemize}
+\item Developed a multi-agent system extracting geometric shapes and equations from images via OCR and generating step-by-step mathematical reasoning paths.
+\item Designed automated code generation pipeline translating proof steps into 2D/3D Manim motion graphics with multi-LLM fallback orchestration over OpenRouter APIs.
+\item Containerized backend services with Docker and Cairo/Pango system bindings to deliver real-time video compilation.
+\end{itemize}
+
+\vspace{0.4em}
+\href{https://github.com/nxc1802/Medagen}{\textbf{Medagen -- AI Patient Triage \& Diagnostic Assistant}} \hfill Jul 2022 -- Jan 2023 \\
+\emph{Role: Fullstack AI Developer \quad|\quad Team Size: 6 \quad|\quad Layers: LangChain ReAct Agents, Advanced RAG (Supabase pgvector/Qdrant), Computer Vision}
+\begin{itemize}
+\item Built a clinical diagnostic assistant utilizing LangChain ReAct Agent framework and Gemini for multi-turn symptom triage, differential diagnosis, and medical tool-calling.
+\item Architected an Advanced RAG system over medical knowledge bases using 768-dim vector embeddings (Supabase Vector / Qdrant), hybrid search, and semantic document chunking.
+\item Integrated Computer Vision models (Vision Transformers / custom CNNs) for dermatological lesion classification and multimodal symptom verification.
+\end{itemize}
+
+\vspace{0.4em}
+\href{https://github.com/nxc1802/MagiCV}{\textbf{MagicCV -- Autonomous Resume Tailoring AI Agent}} \hfill Jan 2022 -- Jun 2022 \\
+\emph{Role: AI Engineer \quad|\quad Team Size: 2 \quad|\quad Layers: Mastra Agent Framework, Supabase pgvector, LLM Ranking Engine, pdflatex Compiler}
+\begin{itemize}
+\item Created an autonomous CV tailoring agent (Nosana Builders Challenge finalist) that extracts candidate profiles from GitHub, LinkedIn, and YouTube APIs.
+\item Implemented 768-dim vector similarity search with 3-level fallback strategies and Gemini LLM ranking algorithms to match career data with job descriptions in ~3 seconds.
+\item Rendered publication-quality PDFs via Nunjucks LaTeX templating; containerized with Docker and deployed to Nosana decentralized GPU compute network.
+\end{itemize}
+
+\vspace{0.4em}
+\href{https://github.com/manhmitcf/DAT_Lab_Management}{\textbf{Lab Management -- Real-Time AI Computer Vision Dashboard}} \hfill May 2021 -- Dec 2021 \\
+\emph{Role: Computer Vision \& Software Engineer \quad|\quad Team Size: 5 \quad|\quad Layers: YOLOv8, ByteTrack, Janus WebRTC, WebSockets, Next.js}
+\begin{itemize}
+\item Deployed YOLO object detection and ByteTrack multi-object tracking models for real-time indoor occupancy tracking and crowd flow analytics.
+\item Streamed live video telemetry with Janus WebRTC servers and WebSockets, delivering low-latency spatial tracking analytics to Next.js dashboards.
+\end{itemize}
+
+% ===== SKILLS =====
+\sectionhr{Skills}
+\textbf{Languages:} Python (5+ years / Expert), C++ (5 years), TypeScript / JavaScript (4+ years), SQL (5 years), Shell Script \\
+\textbf{Language Proficiency:} English (IELTS 6.5 Equivalent -- Professional working proficiency), Vietnamese (Native) \\
+\textbf{AI/ML \& Agent Frameworks:} PyTorch (5 years), TensorFlow, LangChain, LangGraph, Mastra, Model Context Protocol (MCP), ReAct Agents, Tool Calling, Prompt Engineering \\
+\textbf{Generative AI \& RAG:} Advanced RAG, Graph-RAG (Neo4j), Vector Databases (Qdrant, Pinecone, Supabase pgvector), 768-dim Embeddings, Ollama, vLLM \\
+\textbf{Computer Vision \& NLP:} Object Detection (YOLOv8/10), Pose Estimation (MediaPipe), Multi-Object Tracking (ByteTrack), CNNs, Vision Transformers (ViT), OCR \\
+\textbf{Cloud Platforms \& Deployment:} AWS, Azure, Google Cloud Platform (GCP), Hugging Face (Docker Spaces), Vercel, Supabase, Nosana Decentralized GPU Network \\
+\textbf{Web, Database \& DevOps:} Next.js, React, FastAPI, Node.js, WebSockets, Celery, Redis (AOF), Docker, Docker Compose, Janus WebRTC, Git (CI/CD)
+\end{document}
